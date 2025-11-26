@@ -25,6 +25,6 @@ jobs:
       - name: Display repository info
         run: |
           echo "Repository: ${{ github.repository }}"
-          echo "Branch: ${{ github.ref }}"
+          echo "Branch: ${{ github.ref_name }}"
           echo "Event: ${{ github.event_name }}"
           echo "Runner OS: ${{ runner.os }}"
